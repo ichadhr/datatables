@@ -1,0 +1,36 @@
+{
+  "name": "ichadhr/datatables",
+  "description": "Datatables server-side processing",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ichadhr"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0|^8.0|^9.0",
+    "rector/rector": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ichadhr\\Datatables\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ichadhr\\Datatables\\Test\\": "tests/unit"
+    }
+  },
+  "config": {
+    "bin-dir": "vendor/bin"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}

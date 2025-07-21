@@ -1,0 +1,9 @@
+/vendor
+/.idea
+/db
+/public
+/nbproject
+composer.lock
+.DS_Store
+*.cache
+.vscode/
