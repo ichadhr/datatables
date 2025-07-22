@@ -12,7 +12,7 @@ Datatables server-side processing.
 
 ## Installation
 
-> **NOTE:** version 1.0+ requires php 7.1.3+ ([php supported versions](http://php.net/supported-versions.php))
+> **NOTE:** version 1.0+ requires php 7.4+ ([php supported versions](http://php.net/supported-versions.php))
 
 The recommended way to install the library is with [Composer](https://getcomposer.org/)
 
@@ -267,7 +267,7 @@ __getQuery()__
 ## Requirements
 Composer  
 DataTables > 1.10  
-PHP > 7.1.3
+PHP > 7.4
 
 ## License
 [the MIT license](https://github.com/ichadhr/Datatables/blob/master/LICENCE)
